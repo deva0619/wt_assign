@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #007BFF;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: calc(30% - 60px);
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  #hero {
+    background-image: url('education/images/hero.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  #courses {
+    background-image: url('D:/education');
+    background-size: cover;
+    color: white;
+  }
+  
+  #tutorials {
+    background-image: url('tutorial.jpg');
+    background-size: cover;
+    color: white;
+  }
+  
+  #resources {
+    background-image: url('resources.jpg');
+    background-size: cover;
+    color: white;
+  }
+  
+  .btn {
+    background-color: #FFC107;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: calc(100% - 40px);
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
